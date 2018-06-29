@@ -6,46 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css" />
   <title>Zach's Portfolio</title>
 </head>
 
-<body class="p-3 mb-2 bg-dark text-light">
-  <div class="jumbotron bg-secondary">
+<body class="p-3 mb-2 text-light">
+  <div class="jumbotron bg-secondary box">
     <h1 class="title">
       <%= person.firstName %>
         <%= person.lastName %>
     </h1>
     <p class="lead">Full Stack Developer / Clinical Lab Technician</p>
     <hr class="my-4">
-    <p>Hello! I graduated with a B.S. in Biology from the University of Colorado Denver. I've worked as a Lab Technician in clinical laboratories running tests on patient samples since 2012. I am now attending Origin Code Academy in order to pursue a long-ago goal of becoming a software developer. I'm passionate about books, history, and science. Thanks for looking!</p>
+    <p>Hello! I graduated with a B.S. in Biology from the University of Colorado Denver. I've worked as a Lab Technician in
+      clinical laboratories running tests on patient samples since 2012. I am now attending Origin Code Academy in order
+      to pursue a long-ago goal of becoming a software developer. I'm passionate about books, history, and science. Thanks
+      for looking!</p>
     <p class="lead">
     </p>
   </div>
   <div class="card-group">
     <div class="card bg-secondary" style="width: 18rem;">
-      <div class="card-body">
+      <div class="card-body box">
         <h5 class="card-title">Book Hackathon</h5>
         <p class="card-text">A React project that uses Google Books API and Walmart API to search a catalog of books.</p>
-        <a href="https://github.com/ZGoldman8/startnow-react100-hackathon" class="btn btn-outline-warning">View</a>
+        <a href="https://github.com/ZGoldman8/startnow-react100-hackathon" class="btn btn-outline-warning" target="_blank">View</a><br />
+        <img src="http://icons.iconarchive.com/icons/itzikgur/my-seven/256/Books-2-icon.png" />
       </div>
     </div>
     <div class="card bg-secondary" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Very Simple To Do App</h5>
-          <p class="card-text">A React project where you can add, edit, and delete items on a to-do list.</p>
-          <a href="https://github.com/ZGoldman8/startnow-react100-vstda" class="btn btn-outline-warning">View</a>
-        </div>
+      <div class="card-body">
+        <h5 class="card-title">Very Simple To Do App</h5>
+        <p class="card-text">A React project where you can add, edit, and delete items on a to-do list.</p>
+        <a href="https://github.com/ZGoldman8/startnow-react100-vstda" class="btn btn-outline-warning" target="_blank">View</a><br />
+        <img src="https://cdn3.iconfinder.com/data/icons/planning/100/Planning_colour10-256.png" />
       </div>
+    </div>
     <div class="card bg-secondary" style="width: 18rem;">
       <div class="card-body">
         <h5 class="card-title">Astro Weight Calculator</h5>
         <p class="card-text">A web project that calculates your weight based on what planet you're standing on!</p>
-        <a href="https://github.com/ZGoldman8/startnow-web101-astro-weight-calculator" class="btn btn-outline-warning">View</a>
+        <a href="https://github.com/ZGoldman8/startnow-web101-astro-weight-calculator" class="btn btn-outline-warning" target="_blank">View</a><br />
+        <img src="https://cdn4.iconfinder.com/data/icons/galaxy-1/64/12_planet_astrology_satellite_galaxy_small_astronomy-256.png" />
       </div>
     </div>
   </div>
   <br />
-  <a href="https://github.com/ZGoldman8" class="btn btn-outline-warning">View Zach's GitHub</a>
+  <a href="https://github.com/ZGoldman8" class="btn btn-outline-warning" target="_blank">View Zach's GitHub</a>
   <a class="btn btn-outline-warning" href="/contact" role="button">Contact</a>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
